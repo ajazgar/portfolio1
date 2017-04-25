@@ -1,0 +1,147 @@
+﻿body {
+    background-color: #EAE7E8;
+}
+
+* {
+    font-family: Calibri;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2c3e50;
+    overflow: hidden;
+    clear: both;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+#menu li a:hover {
+    background-color: #7f8c8d;
+    color: white;
+}
+
+
+#zaloguj {
+    width: 400px;
+    margin: 100px auto;
+    padding: 12px 0 0;
+    background-color: #fff;
+    border: 1px solid silver;
+    font-size: 16px;
+    -webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+}
+
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #000000;
+    font-size: 16px;
+    text-shadow: 0 0 1px silver;
+}
+
+#username, #password {
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border: 1px solid silver;
+    outline: 5px solid #ebebeb; /*outside the border*/
+    font-size: 16px;
+}
+
+#username:focus, #password:focus { /*pseudoklasa, na której skupia sie uzytkownik*/
+    outline: 5px solid #e5f2f8;
+}
+
+#lower {
+    background-color: #7f8c8d;
+    width: 360px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    position: relative;
+    width: 70px;
+    padding: 5px 10px;
+    border: 1px solid #2c3e50;
+    color: white;
+    text-shadow: 0 0 1px black;
+    background: #2c3e50;
+    left: 270px;
+}
+table {
+    background-color: #fff;
+    position: relative;
+    margin: 100px auto;
+    border-collapse: collapse;
+    width: 80%;
+    padding: 150px 150px 150px 150px;
+    -webkit-box-shadow: 0 0 2px silver;
+    -moz-box-shadow: 0 0 2px silver;
+    box-shadow: 0 0 2px silver;
+    border: 1px solid silver;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid silver;
+}
+
+tr:hover {
+    background-color: #f5f5f5
+}
+
+#images {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.up {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    left: 50%;
+}
+
+.low {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    left: 50%;
+}
+
+.container {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.container p {
+    color: white;
+}
+
